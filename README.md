@@ -13,7 +13,8 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 <details><summary>Implement Multithreading and Asynchronous Processing</summary>
 <p>
 
-- [X] Use the Task Parallel library, including Parallel.Invoke/ForEach/For, PLINQ, Tasks (usingTaskParallelLibrary.cs)
+- [X] Use the Task Parallel library, including Parallel.Invoke/ForEach/For, Tasks (usingTaskParallelLibrary.cs)
+- [ ] Parallel LINQ
 - [ ] Create Continuation Tasks
 - [ ] Spawn threads by using ThreadPool
 - [ ] Unblock the UI
