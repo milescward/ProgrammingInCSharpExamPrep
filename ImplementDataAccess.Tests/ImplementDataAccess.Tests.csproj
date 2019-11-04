@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PerformIOOperationsTests\" />
+    <Folder Include="QueryAndManipulateDataWLINQTests\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ImplementDataAccess\ImplementDataAccess.csproj" />
