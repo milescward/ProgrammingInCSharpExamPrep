@@ -24,6 +24,15 @@ namespace ImplementDataAccess.QueryAndManipulateDataWLINQ
             }
         }
 
+        public static IEnumerable<double> Random()
+        {
+            var random = new Random();
+            while (true)
+            {
+                yield return random.NextDouble();
+            }
+        }
+
         /*************** TESTING ******************/
         /* Ensure Main method is only active Main uncommented */
         /* Delete beginning and end line comments and run program */
