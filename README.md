@@ -1,8 +1,7 @@
 # Programming In CSharp
-## Following Exam prep for Programming in C# 70-483
+## Exam prep for Programming in C# 70-483
 A repository for demonstrating each new measured skill following the 70-483 Exam Preparation Guide on the MSDN website.
 ## Texts: 
----------
   - 20483C Programming in C\#
   - Programming in C# Exam Ref 70-483
   - Pluralsight.com
@@ -10,11 +9,10 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 
 
 ## Skills:
----------
 ### Manage Program Flow (25-30%)
 <details><summary>Implement Multithreading and Asynchronous Processing</summary>
 <p>
-  
+
 - [X] Use the Task Parallel library, including Parallel.Invoke/ForEach/For, PLINQ, Tasks (usingTaskParallelLibrary.cs)
 - [ ] Create Continuation Tasks
 - [ ] Spawn threads by using ThreadPool
@@ -70,6 +68,3 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 
 </p>
 </details>
-
-### Implement Data Access (25-30%)
--------------------------------------------------------
