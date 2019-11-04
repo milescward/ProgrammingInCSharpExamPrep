@@ -8,6 +8,7 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
   - Pluralsight.com
   - https://www.microsoft.com/en-us/learning/exam-70-483.aspx
 
+
 # Skills:
 
 ### 25-30% Manage Program Flow
