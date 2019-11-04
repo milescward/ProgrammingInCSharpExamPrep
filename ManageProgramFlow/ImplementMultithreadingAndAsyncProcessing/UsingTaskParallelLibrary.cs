@@ -79,10 +79,18 @@ namespace ManageProgramFlow
                //- Tasks are not completed in the same order started
             
 
+            // PARALLEL.FOR and FOREACH can take an additional parameter
+            // on the lambda of type ParallelLoopState and retun return
+            // a value of ParallelLoopResult
             Console.WriteLine("Parallel.For:");
             var items2 = Enumerable.Range(0, 5).ToArray();
-            Parallel.For(0, items2.Length, i =>
+            ParallelLoopResult result = Parallel.For(0, items2.Length, (int i,
+                ParallelLoopState loopState) =>
             {
+                if (i == 5)
+                {
+                    loopState.Stop();
+                }
                 WorkOnItem(items2[i]);
             });
 
