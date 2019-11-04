@@ -70,6 +70,7 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 </p>
 </details>
 
+
 ### Implement Data Access (25-30%)
 <details><summary>Perform I/O operations</summary>
 <p>
@@ -95,7 +96,6 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 <p>
 
 - [ ] Query data by using operators, including projection, join, group, take, skip, aggregate
-- [X] Define custom LINQ operator (CustomLinqOperator.cs)
 - [ ] Create method based LINQ queries
 - [ ] Query data by using query comprehension syntax
 - [ ] Select data by using anonymous types
@@ -127,6 +127,15 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 - [ ] Use typed vs. non-typed collections
 - [ ] Implement custom collections
 - [ ] Implement collection interfaces
+
+</p>
+</details>
+<details><summary>Extra</summary>
+<p>
+  
+###### Pluralsight
+- [X] Define custom LINQ operator (CustomLinqOperator.cs)
+- [ ] Funcs and Actions
 
 </p>
 </details>
