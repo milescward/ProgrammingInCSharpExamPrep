@@ -1,15 +1,14 @@
 # Programming In CSharp
 ### Following Exam prep for Programming in C# 70-483
-
+A repository for demonstrating each new measured skill following the 70-483 Exam Preparation Guide on the MSDN website.
 ### Texts: 
+---------
   - 20483C Programming in C\#
   - Programming in C# Exam Ref 70-483
   - Pluralsight.com
   - https://www.microsoft.com/en-us/learning/exam-70-483.aspx
 
-In this repository, I will be demonstrating each new measured skill following the 70-483 Exam Preparation Guide on the MSDN website.
-
-# Modules:
+# Skills:
 
 ### 25-30% Manage Program Flow
 -------------------------------------------------------
