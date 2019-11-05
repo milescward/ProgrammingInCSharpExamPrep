@@ -58,39 +58,67 @@ namespace ImplementDataAccess.QueryAndManipulateDataWLINQ
                     $" {car.Combined}");
             }
 
-            
+            // FORCE EXECUTION OF A QUERY
+
+            /* When we use certain LINQ extension methods, in particular the
+             * ones that return an abstract collection, we have deferred
+             * execution available to us.
+             *
+             * Deferred execution is a lazy way that the queries execute,
+             * which means that they don't complete the query until it is
+             * absolutely necessary.
+             *
+             * var query = cars.where(c => c.Name == BMW)
+             *
+             * The preceeding statement isnt executed until another method
+             * calls on the query variable.
+             *
+             * The yield return keywords show that a method offers deferred
+             * execution.
+             *
+             * Force execution happens when the query needs to return a
+             * concrete response, like an actual collection or object.
+             *
+             * var query = cars.where(c => c.Name == BMW).ToList()
+             *
+             * The preceeding query must execute as soon as it is called,
+             * because the ToList() method must return a concrete collection
+             * right away.
+             */
+
+
 
             // QUANTIFIERS
 
-                // Any()
-                // This just 
+            // Any()
+            // This just 
 
-                // This just returns a bool that represents whether or not
-                // there are any elements at all in the collection.
-                //      bool result1 = cars.Any();
+            // This just returns a bool that represents whether or not
+            // there are any elements at all in the collection.
+            //      bool result1 = cars.Any();
 
-                // Do any cars have a manufacturer of Ford?
-                // as soon as the Any method finds something that is a ford,
-                // it retuns true.
-                //      bool result2 = cars.Any(c => c.Manufacturer == "Ford");
+            // Do any cars have a manufacturer of Ford?
+            // as soon as the Any method finds something that is a ford,
+            // it retuns true.
+            //      bool result2 = cars.Any(c => c.Manufacturer == "Ford");
 
-                // Do all the cars have a manufacturer of Ford?
-                // as soon as the all method finds something that isn't a ford,
-                // it retuns false.
-                //      bool result3 = cars.All(c => c.Manufacturer == "Ford");
+            // Do all the cars have a manufacturer of Ford?
+            // as soon as the all method finds something that isn't a ford,
+            // it retuns false.
+            //      bool result3 = cars.All(c => c.Manufacturer == "Ford");
 
             // PROJECTING DATA
 
-                /* Projection refers to the operation of transforming an object
-                 * into a new form that often consists only of those properties
-                 * that will be subsequently used. By using projection, you can
-                 * construct a new type that is built from each object.
-                 *
-                 * Extension methods are perfect. See the Car.cs file for the
-                 * .ToCar() extension method.  
-                 */
+            /* Projection refers to the operation of transforming an object
+             * into a new form that often consists only of those properties
+             * that will be subsequently used. By using projection, you can
+             * construct a new type that is built from each object.
+             *
+             * Extension methods are perfect. See the Car.cs file for the
+             * .ToCar() extension method.  
+             */
 
-                // Primary projection operator is .Select()
+            // Primary projection operator is .Select()
         }
 
         private static List<Car> ProcessFile(string path)
