@@ -1,5 +1,4 @@
 using System;
-using ImplementDataAccess.Extra;
 using Xunit;
 
 namespace ImplementDataAccess.Tests
