@@ -95,11 +95,11 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
 <details><summary>Query and manipulate data and objects by using LINQ</summary>
 <p>
 
-- [ ] Query data by using operators, including projection, join, group, take, skip, aggregate
-- [ ] Create method based LINQ queries
-- [ ] Query data by using query comprehension syntax
-- [ ] Select data by using anonymous types
-- [ ] Force execution of a query
+- [X] Query data by using operators, including projection, join, group, take, skip, aggregate (QueryDataUsingOperators.cs)
+- [X] Create method based LINQ queries (QueryDataUsingOperators.cs)
+- [X] Query data by using query comprehension syntax (QueryDataUsingOperators.cs)
+- [X] Select data by using anonymous types (QueryDataUsingOperators.cs)
+- [X] Force execution of a query (QueryDataUsingOperators.cs)
 - [ ] Read, filter, create, and modify data structures by using LINQ to XML
 
 </p>
@@ -135,7 +135,7 @@ A repository for demonstrating each new measured skill following the 70-483 Exam
   
 ###### Pluralsight
 - [X] Define custom LINQ operator (CustomLinqOperator.cs)
-- [ ] Funcs and Actions
+- [X] Funcs and Actions (FuncsAndActions.cs)
 
 </p>
 </details>
